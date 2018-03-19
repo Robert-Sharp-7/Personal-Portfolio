@@ -1,0 +1,123 @@
+body {
+        background-color: #aca9be;         
+    }
+
+header {
+        float: right;
+    }
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+li {
+        float: left;
+    }
+
+#profile 
+    {   
+        float: left;
+    }
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+h1 {
+        font-family: 'lobster', 'Georgia', "Times New Roman", serif;
+        font-weight: 400; 
+        text-transform: uppercase; 
+        font-size: 2.027em; 
+        padding-bottom: 1em;
+        text-align: center; 
+        background-color: #5b6cba
+    }
+
+h2 {
+        font-family: 'lobster', 'Georgia', "Times New Roman", serif;
+        font-weight: 400; 
+        text-transform: uppercase; 
+        font-size: 2.027em; 
+        padding-bottom: 1em;
+        text-align: center; 
+    }
+
+h3 {    
+        font-family: 'lobster', 'Georgia', "Times New Roman", serif;
+        font-weight: 400; 
+        text-transform: uppercase; 
+        font-size: 2.027em; 
+        padding-bottom: 1em;
+        text-align: center; 
+    }
+
+p {     
+        font-family: 'Ovo', 'Verdana', 'Arial', sans-serif;
+        font-weight: 400
+    }
+
+a {     text-decoration: underline; 
+        text-decoration-color: darkslateblue; 
+    }
+
+figcaption {
+        font-family: 'Ovo', 'Verdana', 'Arial', sans-serif;
+        font-weight: 400; 
+        font-size: 1em
+    }
+
+#about {
+        background-color: #5b6cba;
+    }
+
+#gallery {
+        background-color: #5b6cba;
+    }
+/* Gave each figure tag a class to use with CSS */
+.grad, .happy, .taylor, .cake, .dress, .wedding
+        {align-content: center; 
+    }
+/* Took away all the margins, I like the space between the pictures a lot more now */
+.photos { 
+        float: left; 
+    }
+figure { 
+        display: block; 
+        margin: 5px; 
+        padding: 5px; 
+        text-align: left;}
+
+figure img { 
+        border: 2px solid #9669ea;}
+figcaption {
+        padding-left: 5px;}
+
+footer {
+        float: left; 
+        text-align: center; 
+        text-transform: uppercase; 
+        font-weight: 400;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
