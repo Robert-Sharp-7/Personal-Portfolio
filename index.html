@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class="head">
+<head id="head">
   <title>Robert Sharp - Personal Portfolio</title>
   <!--Bootstrap CSS-->
   <meta charset="utf-8">
@@ -34,10 +34,10 @@
 <h1>Robert Sharp's Personal Portfolio</h1>
 
 <nav id="navbar">
-    <button id="portHome">Portfolio Home</button>
-    <button id="about">About</button>
-    <button id="projects">Projects</button>
-    <button id="contact">Contact Me Here!</button>
+    <button id="portHome"><a href="#top">Portfolio Home</a></button>
+    <button id="about"><a href="#about">About</a></button>
+    <button id="projects"><a href="#links">Projects</a></button>
+    <button id="contact"><a href="#bottom">Contact Me Here!</a></button>
 </nav>
 <br>
 <h2>Front and Back-End Web Developer</h2>
@@ -45,31 +45,69 @@
 
 <hr>
 <div id="welcome">
-<h3>Welcome! Here are some examples from my portfolio:</h3>
+<h3>Welcome! Here are some things about me:</h3>
 </div>
 
+<div class="all-about-me">
+<p id="about">
+    My name's Robert Sharp, and I was born in Harrisburg, PA to Jim and Polly Sharp on November 15th, 1993,
+    and my sister Stephanie was born 3 years later on the 15th of March. Very
+    shortly after that, we all moved to the Dallas, TX area. It was here that I 
+    was really raised. After graduating high school, I chose to enlist
+    in the Air Force in order to find out what I wanted to do and to pay for 
+    college at a later time. In the military I became an expert in Pashto, one
+    official language of Afghanistan, in order to translate potential threats.
+    Near the end of my first enlistment, I thought I would enjoy working with computers
+    and building websites, so I started school at Bellevue University using military
+    tuition assistance. I found learning to code to be an exciting challenge.
+    <br /><br />
+    I enjoy video games, motorcycling, and spending time with my awesome wife, Monica!
 
+    <div class="pics-about-me">
+        <img src="bmw.png" alt="My BMW s1000r">
+        <img src="controller.png" alt="A gaming controller">
+        <img src="monica.png" alt="A picture of Monica and I at our wedding">
+    </div>
+
+    <br /><br />
+    That's about all there is about me personally. I look forward to working with you!
+</p>
+</div>
+<hr>
+
+<h3>Here are some of the things that I've worked on:</h3>
 <div id="links">
 <figure id="Biosite about my wife">    
-    <img src="Pictures_of_Monica/sunhat.jpg" alt="A picture Monica likes of her in a sunhat" />    
+    <img src="sunhat.jpg" alt="A picture Monica likes of her in a sunhat" />    
     <figcaption>The Biosite I created all about my wife, Monica</figcaption>
     <a href="https://robert-sharp-7.github.io/bioSite/">Biosite</a>
     </figure>
 <br>
 
+
+<figure id="Biosite Repository">    
+        <img src="wip.jpg" alt="This logo is also a work in progress" />    
+        <figcaption>The Biosite I created all about my wife, Monica</figcaption>
+        <a href="https://github.com/Robert-Sharp-7/bioSite">Biosite</a>
+        </figure>
+    <br>
+
+
 <figure id="Web 230 Repository">    
         <img src="var.png" alt="A JavaScript welcome variable" />    
         <figcaption>The Repository I created during Web 230</figcaption>
-        <a href="https://robert-sharp-7.github.io/web-230/">Intro to JavaScript</a>
+        <a href="https://github.com/Robert-Sharp-7/web-230">Intro to JavaScript</a>
         </figure>
 <br>
+
     
-<figure id="Personal Portfolio Prototype">    
+<figure id="Personal Portfolio Repository">    
     <img src="Prototype1.png" alt="The first vision I had for my portfolio" />    
     <figcaption>The personal portfolio prototype</figcaption>
-    <a href="https://robert-sharp-7.github.io/">Portfolio Prototype</a>
+    <a href="https://github.com/Robert-Sharp-7/Robert-Sharp-7.github.io">Portfolio Repository</a>
     </figure>
 <br>
+
 
 
 <figure id="Web 330 Repository">    
@@ -78,45 +116,22 @@
         <a href="https://robert-sharp-7.github.io/web-330/">Enterprise JavaScript II</a>
         </figure>
 <br>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 </div>
 </body>
+<hr>
+<div id="bottom">
 <footer>
-Created by Robert Sharp, Bellevue University
+Created by Robert Sharp; Bellevue University
 <ul>
     <li>Phone: XXX-XXX-XXXX</li>
     <li>Email: robert.sharp.dev@gmail.com</li>
 </ul>
 <br>    
-<a href="#top">Back to Top</a>
+<button><a href="#top">Back to Top</a></button>
 </footer>
+</div>
 
 </HTML>
